@@ -1,0 +1,179 @@
+@-moz-document regexp(".+/owa/.*") {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=all');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+/* Header */
+#imgLiveLogo {
+    display: none !important;
+}
+#divBrandLogo {
+    display: inline-block;
+    font-family: FontAwesome !important;
+    font-size: 32px;
+    margin: 4px 0 0 10px;
+    color: #ddd;
+}
+#divBrandLogo:before {
+    content: "\f0e0";
+}
+#divBackgroundImageMain {
+    background: transparent !important;
+}
+#divBrandBar {
+    background: #444;
+}
+#divUserTileSep {
+    background-color: #ddd;
+}
+#aLogOff,
+#aUserTile {
+    color: #ddd;
+}
+#aLogOff:hover,
+#aUserTile:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+}
+
+/* Frames */
+#divNvDrag > #divNavDivide {
+    top: 0;
+}
+.sprites-NavDivideTop-png,
+.sprites-NavDivideBottom-png,
+.sprites-VLVShadowTop-png,
+#divVLVShadowTile {
+    background: none;
+    border-left: 1px solid #D6D6D6;
+}
+#divNavDivideTile {
+    background: none;
+    border-left: 1px solid #D6D6D6;
+}
+#divLVDivider,
+#divRP {
+    border-top: 1px solid #D6D6D6;
+}
+
+/* Down quick menu */
+.nbHiLt {
+    background: #DBE1E7;
+}
+
+/* Badges */
+#spnUC {
+    margin: 0;
+    color: transparent;
+}
+#spnUC > #spnCV {
+    font-size: 11px;
+    padding: 2px 6px 1px 6px;
+	font-size: 10px;
+	letter-spacing: .1px;
+	vertical-align: baseline;
+    /*
+	background-color: #2196f3;
+	border: 1px solid #2196f3;
+    color: #fff;
+    */
+    color: #d32f2f;
+    border: 1px solid #d32f2f;
+    background-color: transparent;
+	border-radius: 100px;
+}
+
+/* Left Menu */
+#Mail .csimg:not(.sprites-plus-png):not(.sprites-minus-png) {
+    display: none;
+} 
+#Mail .csimg:not(.sprites-plus-png):not(.sprites-minus-png) + span {
+    display: inline-block;
+    font-family: FontAwesome !important;
+    font-size: 14px;
+} 
+#Mail .csimg + span > span {
+    padding-left: 10px;
+    font-size: 12px;
+}
+    
+
+.sprites-inbox-png + span:before { content: "\f003"; }
+.sprites-sentitems-png + span:before { content: "\f1d9"; }
+.sprites-deleted-gif + span:before { content: "\f1f8"; }
+.sprites-drafts-png + span:before { content: "\f040"; }
+.sprites-fldr-png + span:before { content: "\f114"; }
+.sprites-srchfdr-png + span:before { content: "\f002"; }
+.sprites-junkemail-gif + span:before { content: "\f188"; }
+.sprites-notes-png + span:before { content: "\f24a"; }
+
+/* Left Menu 2 */
+#divNbR .csimg {
+    display: none;
+} #divNbR .nbMainTxt  {
+    vertical-align: 0                                         
+} #divNbR a {
+    display: inline-block;
+    font-family: FontAwesome !important;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 15px;
+} #divNbR .csimg + span {
+    font-family: 'Open Sans', sans-serif; 
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+#lnkInbx:before { content: "\f003"; }
+#lnkCal:before { content: "\f073"; }
+#lnkCtcts:before { content: "\f0c0"; }
+#lnkTsks:before { content: "\f0ae"; }
+#lnkPFs:before { content: "\f115"; }
+
+
+/* left menu */
+#divBreadcrumbs > #spnMdNm {
+    color: #d32f2f;
+}
+
+.trNdHl:hover > a > span  {
+    color: #d32f2f;
+}
+.trDefSel {
+    color: #000000;
+    background-color: transparent;
+    border-left: 4px solid #d32f2f;
+}
+.trDefSel ~ a {
+    color: #d32f2f !important;
+}
+
+/* emails */
+#vr.sel, #sr.sel {
+    background-color: #DBE1E7;
+}
+ 
+/* emails toolbar */
+.tbfHvr > a, .tbfShareHvr > a {
+    color: #444;
+    font-weight: 600;
+}
+
+.tbfHvr:hover, .tbfShareHvr:hover {
+    background: transparent;
+    border-color: transparent;
+}
+
+.tbfHvr:hover > a > span, .tbfShareHvr:hover > a > span {
+	color: #d32f2f;
+}
+
+/* email */
+#divConvTopic {
+    color: #d32f2f;
+}
+}
