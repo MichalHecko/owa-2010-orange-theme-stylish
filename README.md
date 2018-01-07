@@ -1,6 +1,8 @@
 # owa-2010-orange-theme-stylish
 Stylish CSS theme for Exchange OWA 2010
 
+**Work In Progress !!!**
+
 1. Install Stylish addon for Firefox
 2. Create new empty style
 3. Paste content of stylish.css to newly created style in Stylish
